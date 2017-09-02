@@ -1,0 +1,47 @@
+
+
+.twitch_row {
+  border: 1px solid white;
+  height: 70px;
+
+  padding: 10px 10px;
+  background-color: grey;
+  line-height: 50px;
+  color: black;
+  text-align: center;
+}
+
+#header {
+  text-align:left;
+  color: white;
+  background-color: brown;
+  font-size: 2em;
+}
+
+.name a, .streaming p{
+    overflow:hidden;
+    white-space:nowrap;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    display: block;
+}
+
+.name a {
+  padding: 0px 5px;
+}
+
+.row a, a:active, a:hover {
+  color: white;
+
+}
+
+.col-xs-1 {
+
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
